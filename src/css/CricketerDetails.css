@@ -1,0 +1,32 @@
+
+.cricketer-details {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .cricketer-info {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .similar-players {
+    margin-top: 20px;
+  }
+  
+  .similar-player-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .back-link {
+    display: block;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,25 @@
+
+.cricketers-list {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .cricketer-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .cricketer-link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .cricketer-type {
+    color: #888;
+  }
+  
