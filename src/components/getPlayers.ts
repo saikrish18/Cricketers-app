@@ -8,7 +8,7 @@ export type TPlayer = {
   type?: TMayBe<"batsman" | "bowler" | "allRounder" | "wicketKeeper">;
   points?: TMayBe<number>;
   rank?: TMayBe<number>;
-  dob?: TMayBe<number>;
+  dob?: TMayBe<number | null>;
 };
 
 const getPlayers = (): Promise<TPlayer[]> => {
